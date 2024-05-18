@@ -20,10 +20,10 @@ public class Main {
         shopMap.remove("McDonald’s");
         System.out.println(shopMap.get("McDonald’s"));
 
-        if (shopMap.containsKey("Uniqlo")) {
-            System.out.println("There is a Uniqlo.");
+        if (shopMap.containsKey("DAISO")) {
+            System.out.println("There is a DAISO.");
         } else {
-            System.out.println("No Uniqlo");
+            System.out.println("No DAISO");
         }
         Scanner scanner = new Scanner(System.in);
         System.out.print("Please enter the shop name: ");
